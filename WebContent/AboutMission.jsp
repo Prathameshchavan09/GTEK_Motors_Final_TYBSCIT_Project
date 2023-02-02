@@ -9,40 +9,77 @@
 <body>
 	<%@ include file="all_components/navbar.jsp"%>
 
-	<div class="section AboutUsSection">
-		<div class="container AboutUsContainer">
-			<div class="content-section AboutUsContentSection">
-				<div class="title">
-					<h1 class="AboutUstitle">
-						<strong>About Us</strong>
-					</h1>
-				</div>
-				<div class="content">
-					<h3>Lorem Ipsum is simply dummy text of</h3>
+	<h1>About Us</h1>
 
-					<p>the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an
-						unknown printer took a galley of type and scrambled it to make a
-						type specimen book. It has survived not only five centuries, but
-						also the leap into electronic typesetting, remaining essentially
-						unchanged. It was popularised in the 1960s with the release of
-						Letraset sheets containing Lorem Ipsum passages, and more recently
-						with desktop
-						<p>
-						<a href="#" class="btn btn-warning mt-3">Read More</a>
-					  </p>
+	<div class="card">
 
-				</div>
-				
-			</div>
-			<div class="AboutUsImage">
-				<img src="HomeImages/homeimg1.jpg">
+		<div class="card-body">
+			<h5 class="card-title">
+				<strong><Italic>About Us<i
+						class="fa fa-address-book" aria-hidden="true"></i></Italic></strong>
+			</h5>
+			<p class="card-text">
+				<italic> Incorporated in the year 2017, we, G-Tek Motors &
+				Lab Instrument are amongst the most promising Manufacturers and
+				Suppliers of a diverse product range. Our area of specialization
+				lies in manufacturing Dental Lab Instruments & Material, Helical
+				Gear Boxes, Helical Worm Geared Motor, Lab Water Pump, along with a
+				host of various other products.b Water Pump, along with a host of
+				various other products. Known for their durability, quality and
+				cost-effectiveness, our offered range is made under the expert
+				surveillance of team leaders. To manufacture a diversified product
+				range, we have collaborated with certified and trustworthy vendors,
+				who provide us with high grade steel, plastic and other raw
+				materials. We have made an advance production unit that is fitted
+				with necessary techno advanced machines. These machines aid our
+				professionals to make bulk products in accordance with national
+				quality standards. The core values of the company focusing upon
+				which we are</italic>
+			</p>
+
+
+			<img class="card-img-top" src="Images/about-us1.jpeg"
+				alt="Card image cap">
+		</div>
+
+		<hr>
+
+		<!--Layer2-->
+		<div class="middle-layer">
+			<div class="card-body">
+				<h5 class="card-title">
+					<strong><Italic>
+						<i class="fa fa-check-square" aria-hidden="true"></i> Our Quality</Italic></strong>
+				</h5>
+				<p class="card-text">
+					<italic> Incorporated in the year 2017, we, G-Tek Motors &
+					Lab Instrument are amongst the most promising Manufacturers and
+					Suppliers of a diverse product range. Our area of specialization
+					lies in manufacturing Dental Lab Instruments & Material, Helical
+					Gear Boxes, Helical Worm Geared Motor, Lab Water Pump, along with a
+					host of various other products.b Water Pump, along with a host of
+					various other products. Known for their durability, quality and
+					cost-effectiveness, our offered range is made under the expert
+					surveillance of team leaders. To manufacture a diversified product
+					range, we have collaborated with certified and trustworthy vendors,
+					who provide us with high grade steel, plastic and other raw
+					materials. We have made an advance production unit that is fitted
+					with necessary techno advanced machines. These machines aid our
+					professionals to make bulk products in accordance with national
+					quality standards. The core values of the company focusing upon
+					which we are</italic>
+				</p>
+
+
+				<img class="card-img-bottom" src="Images/about-us2.jpeg"
+					alt="Card image cap">
+
 			</div>
 
 		</div>
-			
 	</div>
-  <%@ include file="all_components/footer.jsp"%>
+	<hr>
+	<%@ include file="all_components/footer.jsp"%>
 
 </body>
 </html>
