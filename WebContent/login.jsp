@@ -20,21 +20,21 @@
 						<i class="fa fa-user-plus fa-3x" aria-hidden="true"></i>
 						<h4>Login Form</h4>
 					</div>
-					
-					
-					
-						<!--session on Password and Email Validation Login Failed	-->	
-						
-					<% 
-					String loginFailed = (String) session.getAttribute("errorMessage");
-					if(loginFailed!=null){
-				    %>
-				 <div class="alert alert-danger text-center" role="alert"><%=loginFailed%></div>
-				    <% 
-					session.removeAttribute("errorMessage");	
-					}
+
+
+
+					<!--session on Password and Email Validation Login Failed	-->
+
+					<%
+						String loginFailed = (String) session.getAttribute("errorMessage");
+						if (loginFailed != null) {
 					%>
-					
+					<div class="alert alert-danger text-center" role="alert"><%=loginFailed%></div>
+					<%
+						session.removeAttribute("errorMessage");
+						}
+					%>
+
 
 
 					<div class="card-body">
@@ -54,9 +54,12 @@
 									type="text" class="form-control" name="loginPassword"
 									placeholder="password" required>
 							</div>
+							<br>
 
-
-
+							<div class="form-group">
+								<a href="forgotPassword.jsp">forgot Password</a><br>
+								<br>
+							</div>
 
 							<input type="submit" class="form-control btn btn-primary">
 

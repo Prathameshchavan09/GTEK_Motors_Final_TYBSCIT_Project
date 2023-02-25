@@ -94,7 +94,7 @@
 
                   
                   			<div class="form-group">
-								<label class="labeld">Password&nbsp;<i class="fa fa-asterisk" aria-hidden="true"></i></label> <input type="text" class="form-control"
+								<label class="labeld">Password&nbsp;<i class="fa fa-asterisk" aria-hidden="true"></i></label> <input type="password" class="form-control"
 									name="loginPassword" placeholder="password" required>
 							</div>
 							

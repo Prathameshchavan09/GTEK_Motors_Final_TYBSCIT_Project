@@ -646,3 +646,41 @@ li a {
 }
 
 /* home Page Text animation*/
+
+
+
+/* ForgetPassword.jsp Page css */
+
+.forget_password_Body {
+	background-position: center;
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #505050;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.5;
+	text-transform: none
+}
+
+.forgot {
+	position:relative;
+	top:100px;
+	background-color: #fff;
+	padding: 40px;
+	border: 1px solid #dfdfdf
+}
+
+.forgetPasswordButtons {
+	font-size: 14px
+}
+
+.emailBox{
+position:relative;
+	top:120px;
+	background-color:#fff;
+	
+}
+
+/* ForgetPassword.jsp Page css */
+
