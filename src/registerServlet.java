@@ -47,7 +47,7 @@ public class registerServlet extends HttpServlet {
 			String Countrow = rs.getString(1);
 			System.out.println(Countrow);
 
-			if(Countrow.equals("0") && password.contains("#") || password.contains("@"))  
+			if(Countrow.equals("0") && password.contains("$") || password.contains("#") || password.contains("?") || password.contains("!") || password.contains("_") || password.contains("=") || password.contains("%"))  
 			 {
 				int i = st.executeUpdate("insert into GtekRegisteration(name,email,country,password)values('" + name + "','" + email + "','"
 						+ country + "','"  + password + "')");
@@ -66,7 +66,7 @@ public class registerServlet extends HttpServlet {
 			}
 			else {
 				HttpSession session = request.getSession();
-				session.setAttribute("PasswordValidationFailed", "Password should contain # or @");
+				session.setAttribute("PasswordValidationFailed", "Password should contain Special Characters");
 				response.sendRedirect("register.jsp");
 			}
 			

@@ -38,7 +38,7 @@ public class ForgetPasswordServlet extends HttpServlet {
 			// Get the session object
 			
 			
-			// This all r gmail configuration
+			// This all r email configuration
 			
 			Properties props = new Properties();
 			props.put("mail.smtp.host", "smtp.gmail.com");

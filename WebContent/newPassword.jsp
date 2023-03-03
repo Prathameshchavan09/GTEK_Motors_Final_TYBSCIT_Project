@@ -40,6 +40,8 @@
 							</h1>
 
 						</div>
+						
+						<!-- Sesssion on Reset Password Success -->
 
 						<%
 							String resetPassSucc = (String) session.getAttribute("passSucc");
@@ -47,13 +49,22 @@
 						%>
 
 
-						<div class="alert alert-primary text-center" role="alert"><%=resetPassSucc%></div>
-						
-						
+						<div class="alert alert-success text-center" role="alert"><%=resetPassSucc%></div>
+					<a href="home.jsp" style="text-decoration: none;text-align:center;">Home Page</a>
+					<script type="text/javascript">
+    alert("Successfully Reset the Password");
+</script> 
+				
 						<%
 							session.removeAttribute("passSucc");
 							}
 						%>
+						
+						
+
+
+
+                           <!-- Sesssion on Reset Password Failed  -->
 
 						<%
 							String resetPassFailed = (String) session.getAttribute("passFailed");
@@ -64,6 +75,20 @@
 							session.removeAttribute("passFailed");
 							}
 						%>
+						
+						
+						
+						<!-- Sesssion on Reset Password Special Characters  -->
+						<%
+							String passSpeCharFailed = (String) session.getAttribute("passSpeChar");
+							if (passSpeCharFailed != null) {
+						%>
+						<div class="alert alert-danger text-center" role="alert"><%=passSpeCharFailed%></div>
+						<%
+							session.removeAttribute("passSpeChar");
+							}
+						%>
+						
 
 
 						<div class="pt-3 pb-3">
@@ -72,7 +97,7 @@
 								<!-- User Name Input -->
 								<div class="form-group row justify-content-center px-3">
 									<div class="col-9 px-0">
-										<input type="text" name="password"
+										<input type="password" name="password"
 											placeholder="&#xf084; &nbsp; New Password"
 											class="form-control border-info placeicon">
 									</div>

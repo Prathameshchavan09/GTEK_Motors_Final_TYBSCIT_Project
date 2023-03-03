@@ -1,0 +1,189 @@
+
+
+@charset "ISO-8859-1";
+
+
+.card .AboutUsCardBody{
+    padding:40px;
+    /*background-color:;*/
+    
+    
+}
+.card-title .AboutUsTitle{
+	    position:relative;
+        top: 50px;
+        font-size:38px;
+      text-shadow: 2px 2px 8px lightblue;
+        font-family: sans-serif;
+        color:black;
+        
+}
+
+
+
+.card-text .AboutUsText{
+  
+    
+    padding-top: 70px;
+    padding-bottom: 80px;
+    padding-right: 10%;
+    font-family:sans-serif;
+    font-size: 19px;
+}
+.fa-address-book{
+	font-size:30px;
+	margin-left:10px;
+}
+
+.fa-check-square{
+	font-size:50px;
+	margin-left:10px;
+}
+
+.fa-address-book:hover{
+    color: blue;
+    
+}
+.fa-check-square:hover{
+    color:lightgreen;
+}
+
+/* For width 1000px and larger: */
+@media only screen and (min-width: 1000px) {
+   
+.AboutUsImage .card-img-top{
+   position:relative;
+   padding-left:800px;
+   right:80px;
+   margin-right:30px;
+   float:right;
+   
+ 
+   
+   
+   
+}
+.AboutUsImage .card-img-bottom{
+   position:relative;
+   padding-right:800px;
+   left: 0px;
+   margin-left:30px;
+   float:left;
+}
+
+.middle-layer .card-title .AboutUsTitle{
+    padding-right: 125px;
+    text-align:right;
+    padding-top: 50px;
+    font-size:60px;
+    font-family: sans-serif;
+    color:black;
+        
+}
+.middle-layer .card-text .AboutUsText{
+    text-align:right;
+}
+
+}
+
+
+
+
+/* Navbar css */
+
+body {
+	bacground: f1fbff;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+
+.carousel-caption {
+	bottom: 250px;
+	z-index: 2;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	
+	color:black;
+	font-weight:500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	
+	color:black;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	line-height: 140px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	top: 45px;
+}
+
+.corousel-caption {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+
+/* Carousel-caption responsiveness */
+.carousel-inner::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: 21px;
+	font-weight: 500;
+	color: black;
+	display: inline;
+}
+
+.navbar-nav .nav-item {
+	color: white;
+}
+
+.navbar .nav-item .nav-link {
+	font-weight: bold;
+}
+
+.navbar .nav-item .nav-link:hover {
+	border-radius: 8px;
+	color: white;
+	background-color: powderblue;
+	color: black;
+}
+
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-tranform: uppercase;
+	font-weight: 780;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.w-100 {
+	height: 100%;
+}

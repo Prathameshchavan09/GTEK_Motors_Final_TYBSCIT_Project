@@ -27,24 +27,25 @@ public class newPasswordServlet extends HttpServlet {
 		String confirmPassword = request.getParameter("confirmPassword");
 		RequestDispatcher dispatcher = null;
 		PrintWriter out = new PrintWriter(System.out);
-		if (newPassword != null && confirmPassword != null && newPassword.equals(confirmPassword)) 
+		if (newPassword != null && confirmPassword != null  && newPassword.contains("$") || newPassword.contains("#") || newPassword.contains("?") || newPassword.contains("!") || newPassword.contains("_") ||newPassword.contains("=") || newPassword.contains("%") ) 
 		{
-
+				
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
 				Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Gtek_final", "root","root");
 				PreparedStatement pst = con.prepareStatement("update gtekregisteration set password = ? where email = ? ");
 				pst.setString(1, newPassword);
 				pst.setString(2, (String) session.getAttribute("email"));
-
+				
 				int rowCount = pst.executeUpdate();
 				if (rowCount > 0) {
 				
+					
 					session.setAttribute("passSucc", "Password Reset Successfully");
-					response.sendRedirect("home.jsp");
+					response.sendRedirect("newPassword.jsp");
 					
-					
-					} 
+										
+					}
 				
 			
 			} catch (Exception e) {
