@@ -176,6 +176,8 @@ body {
 
 /* Carousel-caption responsiveness */
 
+
+
 /* footer responsiveness */
 @media only screen and (max-width: 100%) {
 	.about-text h2 {
@@ -401,6 +403,7 @@ li a {
 
 /* Registration form  Login form */
 
+
 /* Requirement/Customize Form*/
 .req {
 	position: absolute;
@@ -479,6 +482,7 @@ li a {
 
 /* Requirement/Customize Form*/
 
+
 /* Product dropdown css*/
 .dropdown-menu li {
 	position: relative;
@@ -504,7 +508,10 @@ li a {
 	display: block;
 }
 
+
 /* Product dropdown css*/
+
+
 
 /* Product Page Designs*/
 .px-4 .card {
@@ -683,6 +690,8 @@ position:relative;
 }
 
 /* ForgetPassword.jsp Page css */
+
+
 
 
 
