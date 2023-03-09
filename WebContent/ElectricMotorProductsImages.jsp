@@ -32,12 +32,13 @@
 
 <!-- This link is for Product Page dropdown list -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 	crossorigin="anonymous"></script>
-		
-	<!-- This link is for Product Page dropdown list -->
-	
+
+<!-- This link is for Product Page dropdown list -->
+
 
 
 <title>Product Page</title>
@@ -66,19 +67,7 @@
 					aria-current="page" href="home.jsp"><i class="fa fa-home"
 						aria-hidden="true"></i>Home</a></li>
 
-				<li class="nav-item dropdown" id="myDropdown"><a
-					class="nav-link dropdown-toggle" href="AboutUs.jsp"
-					data-bs-toggle="dropdown">AboutUs</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="AboutUs.jsp">GTEK-motors</a>
-						<li><a class="dropdown-item" href="AboutUsPage.jsp">Mission</a>
-						<li><a class="dropdown-item" href="#">Vision</a>
-					</ul></li>
-
-
-
-
-
+				<li class="nav-item"><a class="nav-link" href="AboutUsPage.jsp"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;AboutUs</a></li>
 
 
 				<li class="nav-item dropdown" id="myDropdown"><a
@@ -203,7 +192,7 @@
 
 
 					</ul>
-				<li class="nav-item"><a class="nav-link" href="customize.jsp">Customize</a></li>
+				<li class="nav-item"><a class="nav-link" href="customize.jsp"><i class="fa fa-pencil" aria-hidden="true"></i>Customize</a></li>
 				<li class="nav-item"><a class="nav-link" href="contactUs.jsp"><i
 						class="fa fa-phone" aria-hidden="true"></i>ContactUs</a></li>
 
@@ -255,8 +244,7 @@
 					Vertical A.C. Flange Motors to our most valued clients. Our range
 					of these are widely appreciated by our clients which are situated
 					all round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 
@@ -272,8 +260,7 @@
 					Vertical A.C. Flange Motors to our most valued clients. Our range
 					of these are widely appreciated by our clients which are situated
 					all round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 			</div>
@@ -285,12 +272,11 @@
 					src="HomeImages/ElectricMotorProductsImages/ACFlangeMountedMotor.JPG">
 				<div class="card-body">
 					<h5 class="card-title">A.C. Flange Mounted Motors</h5>
-					<p class="card-text">We are involved in offering a wide range of
-					A.C. Flange Mounted Motors to our most valued clients. Our range of
-					these are widely appreciated by our clients which are situated all
-					round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					<p class="card-text">We are involved in offering a wide range
+						of A.C. Flange Mounted Motors to our most valued clients. Our
+						range of these are widely appreciated by our clients which are
+						situated all round the nation. We offer our range of it at most
+						affordable prices.</p>
 					<br>
 					<button type="button" class="btn btn-success">Success</button>
 				</div>
@@ -314,8 +300,7 @@
 					A.C. And D.C. Gear Motors to our most valued clients. Our range of
 					these are widely appreciated by our clients which are situated all
 					round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 
@@ -331,9 +316,7 @@
 					A.C. Motor With V.F.D. Drives to our most valued clients. Our range
 					of these are widely appreciated by our clients which are situated
 					all round the nation. We offer our range of it at most affordable
-					prices.
-
-</p>
+					prices.</p>
 				<br>
 
 				<button type="button" class="btn btn-success">Success</button>
@@ -345,11 +328,10 @@
 			<div class="card-body">
 				<h5 class="card-title">A.C. V.F.D. Drives</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					D.C. Motors With Dc Drive to our most valued clients. Our range
-					of these are widely appreciated by our clients which are situated
-					all round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					D.C. Motors With Dc Drive to our most valued clients. Our range of
+					these are widely appreciated by our clients which are situated all
+					round the nation. We offer our range of it at most affordable
+					prices.</p>
 				<br>
 
 				<button type="button" class="btn btn-success">Success</button>
@@ -365,16 +347,15 @@
 		<div class="card">
 			<img class="card-img-top"
 				src="HomeImages/ElectricMotorProductsImages/D.CMotors.jpg">
-	<div class="card-body">
+			<div class="card-body">
 				<h5 class="card-title">
 					<b>D.C. Motors</b>
 				</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					D.C. Motors With Dc Drive to our most valued clients. Our range
-					of these are widely appreciated by our clients which are situated
-					all round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					D.C. Motors With Dc Drive to our most valued clients. Our range of
+					these are widely appreciated by our clients which are situated all
+					round the nation. We offer our range of it at most affordable
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 
@@ -387,12 +368,10 @@
 			<div class="card-body">
 				<h5 class="card-title">Inline Motors</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					Inline Motors to our most valued clients. Our range of these
-					are widely appreciated by our clients which are situated all round
-					the nation. We offer our range of it at most affordable prices.
-
-
-					Sturdy design Highly durable Application specific design .</p>
+					Inline Motors to our most valued clients. Our range of these are
+					widely appreciated by our clients which are situated all round the
+					nation. We offer our range of it at most affordable prices. Sturdy
+					design Highly durable Application specific design .</p>
 				<br>
 
 				<button type="button" class="btn btn-success">Success</button>
@@ -404,24 +383,21 @@
 			<div class="card-body">
 				<h5 class="card-title">A.C. Gear Motors</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					A.C. Gear Motors to our most valued clients. Our range of these
-					are widely appreciated by our clients which are situated all round
-					the nation. We offer our range of it at most affordable prices.
-
-
-
-					Sturdy design Highly durable Application specific design</p>
+					A.C. Gear Motors to our most valued clients. Our range of these are
+					widely appreciated by our clients which are situated all round the
+					nation. We offer our range of it at most affordable prices. Sturdy
+					design Highly durable Application specific design</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 			</div>
 		</div>
 	</div>
-	
-	
-	
-	
-	
-		<!-- Fourth Layer -->
+
+
+
+
+
+	<!-- Fourth Layer -->
 	<div class="ProductTitle">
 		<h1>
 			<center>AC and DC Drives</center>
@@ -439,9 +415,7 @@
 					Helical Worm Geared Motors to our most valued clients. Our range of
 					these are widely appreciated by our clients which are situated all
 					round the nation. We offer our range of it at most affordable
-					prices.
-
-</p>
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 
@@ -454,10 +428,9 @@
 			<div class="card-body">
 				<h5 class="card-title">D.C. Geared Motors</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					D.C. Geared Motors to our most valued clients. Our range of
-					these are widely appreciated by our clients which are situated all
-					round the nation. We offer our range of it at most affordable
-					prices.
+					D.C. Geared Motors to our most valued clients. Our range of these
+					are widely appreciated by our clients which are situated all round
+					the nation. We offer our range of it at most affordable prices.
 
 
 
@@ -476,9 +449,9 @@
 				<div class="card-body">
 					<h5 class="card-title">3 Phase Induction Motors</h5>
 					<p class="card-text">We are involved in offering a wide range
-						of 3 Phase Induction Motors to our most valued clients. Our range of
-						these are widely appreciated by our clients which are situated all
-						round the nation. We offer our range of it at most affordable
+						of 3 Phase Induction Motors to our most valued clients. Our range
+						of these are widely appreciated by our clients which are situated
+						all round the nation. We offer our range of it at most affordable
 						prices. Sturdy design Highly durable Application specific design</p>
 					<br>
 
@@ -517,12 +490,10 @@
 			<div class="card-body">
 				<h5 class="card-title">F.H.P. Inline Gear Motors</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					F.H.P. Inline Gear Motors to our most valued clients. Our range of these
-					are widely appreciated by our clients which are situated all round
-					the nation. We offer our range of it at most affordable prices.
-
-
-					Sturdy design Highly durable Application specific design .</p>
+					F.H.P. Inline Gear Motors to our most valued clients. Our range of
+					these are widely appreciated by our clients which are situated all
+					round the nation. We offer our range of it at most affordable
+					prices. Sturdy design Highly durable Application specific design .</p>
 				<br>
 
 				<button type="button" class="btn btn-success">Success</button>
@@ -557,15 +528,15 @@
 		<div class="card">
 			<img class="card-img-top"
 				src="HomeImages/ElectricMotorProductsImages/D.C.MotorsWithLowR.P.M..png">
-	<div class="card-body">
+			<div class="card-body">
 				<h5 class="card-title">
 					<b>D.C. Motors With Low R.P.M</b>
 				</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					D.C. Motors With Low R.P.M to our most valued clients. Our
-					range of these are widely appreciated by our clients which are
-					situated all round the nation. We offer our range of it at most
-					affordable prices.</p>
+					D.C. Motors With Low R.P.M to our most valued clients. Our range of
+					these are widely appreciated by our clients which are situated all
+					round the nation. We offer our range of it at most affordable
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 
@@ -607,16 +578,16 @@
 			</div>
 		</div>
 	</div>
-	
-	
-	
+
+
+
 	<!--Seventh Layer -->
 
 	<div class="card-group">
 		<div class="card">
 			<img class="card-img-top"
 				src="HomeImages/ElectricMotorProductsImages/P.M.D.CFlangeGearMotor.png">
-	<div class="card-body">
+			<div class="card-body">
 				<h5 class="card-title">
 					<b>P.M.D.C. Flange Gear Motor.</b>
 				</h5>
@@ -624,8 +595,7 @@
 					P.M.D.C. Flange Gear Motor to our most valued clients. Our range of
 					these are widely appreciated by our clients which are situated all
 					round the nation. We offer our range of it at most affordable
-					prices.
-</p>
+					prices.</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 
@@ -638,12 +608,10 @@
 			<div class="card-body">
 				<h5 class="card-title">Stepper Motor</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					Stepper Motor to our most valued clients. Our range of these
-					are widely appreciated by our clients which are situated all round
-					the nation. We offer our range of it at most affordable prices.
-
-
-					Sturdy design Highly durable Application specific design .</p>
+					Stepper Motor to our most valued clients. Our range of these are
+					widely appreciated by our clients which are situated all round the
+					nation. We offer our range of it at most affordable prices. Sturdy
+					design Highly durable Application specific design .</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 			</div>
@@ -651,23 +619,20 @@
 		<div class="card">
 			<img class="card-img-top"
 				src="HomeImages/ElectricMotorProductsImages/PmdcGearMotors.png">
-	<div class="card-body">
+			<div class="card-body">
 				<h5 class="card-title">Pmdc Gear Motors</h5>
 				<p class="card-text">We are involved in offering a wide range of
-					Pmdc Gear Motors to our most valued clients. Our range of these
-					are widely appreciated by our clients which are situated all round
-					the nation. We offer our range of it at most affordable prices.
-
-
-
-					Sturdy design Highly durable Application specific design</p>
+					Pmdc Gear Motors to our most valued clients. Our range of these are
+					widely appreciated by our clients which are situated all round the
+					nation. We offer our range of it at most affordable prices. Sturdy
+					design Highly durable Application specific design</p>
 				<br>
 				<button type="button" class="btn btn-success">Success</button>
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 
 
 </body>

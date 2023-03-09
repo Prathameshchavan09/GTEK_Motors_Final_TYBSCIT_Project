@@ -36,8 +36,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
-		
+	crossorigin="anonymous"></script>	
 	<!-- This link is for Product Page dropdown list -->
 	
 	
@@ -68,20 +67,9 @@
 					aria-current="page" href="home.jsp"><i class="fa fa-home"
 						aria-hidden="true"></i>Home</a></li>
 
-				<li class="nav-item dropdown" id="myDropdown"><a
-					class="nav-link dropdown-toggle" href="AboutUs.jsp" data-bs-toggle="dropdown">AboutUs</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="AboutUs.jsp">GTEK-motors</a>
-						<li><a class="dropdown-item" href="AboutUsPage.jsp">Mission</a>
-						<li><a class="dropdown-item" href="#">Vision</a>
-					</ul></li>
-
-
-
-
-
-
-
+					<li class="nav-item"><a class="nav-link" href="AboutUsPage.jsp"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;AboutUs</a></li>
+					
+					
 				<li class="nav-item dropdown" id="myDropdown"><a
 					class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Products</a>
 
@@ -204,7 +192,7 @@
 
 
 					</ul>
-				<li class="nav-item"><a class="nav-link" href="customize.jsp">Customize</a></li>
+				<li class="nav-item"><a class="nav-link" href="customize.jsp"><i class="fa fa-pencil" aria-hidden="true"></i>Customize</a></li>
 				<li class="nav-item"><a class="nav-link" href="contactUs.jsp"><i
 						class="fa fa-phone" aria-hidden="true"></i>ContactUs</a></li>
 

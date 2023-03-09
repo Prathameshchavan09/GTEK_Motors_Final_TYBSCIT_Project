@@ -52,17 +52,7 @@
 					aria-current="page" href="home.jsp"><i class="fa fa-home"
 						aria-hidden="true"></i>Home</a></li>
 
-				<li class="nav-item dropdown" id="myDropdown"><a
-					class="nav-link dropdown-toggle" href="AboutUs.jsp" data-bs-toggle="dropdown">AboutUs</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="AboutUs.jsp">GTEK-motors</a>
-						<li><a class="dropdown-item" href="AboutUsPage.jsp">Mission</a>
-						<li><a class="dropdown-item" href="#">Vision</a>
-					</ul></li>
-
-
-
-
+			<li class="nav-item"><a class="nav-link" href="AboutUsPage.jsp"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;AboutUs</a></li>
 
 
 

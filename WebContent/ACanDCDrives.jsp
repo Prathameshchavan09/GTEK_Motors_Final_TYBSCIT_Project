@@ -48,8 +48,7 @@
 
 
 
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<div class="container">
 		<a class="navbar-brand" href="#"><strong><span
 				class="text-warning">GTEK-</span></strong>Motors</a>
@@ -67,8 +66,7 @@
 						aria-hidden="true"></i>Home</a></li>
 
 				<li class="nav-item dropdown" id="myDropdown"><a
-					class="nav-link dropdown-toggle" href="AboutUs.jsp"
-					data-bs-toggle="dropdown">AboutUs</a>
+					class="nav-link dropdown-toggle" href="AboutUs.jsp" data-bs-toggle="dropdown">AboutUs</a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="AboutUs.jsp">GTEK-motors</a>
 						<li><a class="dropdown-item" href="AboutUsPage.jsp">Mission</a>
@@ -227,7 +225,8 @@
 
 
 	</div>
-	</nav>
+</nav>
+
 
 	<br>
 	<br>
@@ -260,8 +259,10 @@
 				<p class="card-text">
 					<small class="text-muted">Last updated 3 mins ago</small>
 				</p>
-				<button type="button" class="btn btn-success">Success</button>
-
+				<form action="SpecificProduct.jsp" method="post">
+				
+				<input type="submit" class="form-control btn btn-primary">
+</form>
 
 			</div>
 		</div>
