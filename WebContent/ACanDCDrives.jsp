@@ -259,9 +259,11 @@
 				<p class="card-text">
 					<small class="text-muted">Last updated 3 mins ago</small>
 				</p>
-				<form action="SpecificProduct.jsp" method="post">
+				<form action="">
 				
 				<input type="submit" class="form-control btn btn-primary">
+				
+				
 </form>
 
 			</div>

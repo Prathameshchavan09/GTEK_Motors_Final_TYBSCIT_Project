@@ -1,3 +1,5 @@
+
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -16,7 +18,7 @@ var s1=document.createElement("script"),s0=document.getElementsByTagName("script
 s1.async=true;
 s1.src='https://embed.tawk.to/63b591c9c2f1ac1e202ba8cd/1gluk2vod';
 s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
+s1.setAttribute('crossorigin','*');	
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
@@ -97,6 +99,7 @@ s0.parentNode.insertBefore(s1,s0);
 						<img src="HomeImages/aboutSection.jpg" class="img-fluid">
 
 					</div>
+
 
 				</div>
 
