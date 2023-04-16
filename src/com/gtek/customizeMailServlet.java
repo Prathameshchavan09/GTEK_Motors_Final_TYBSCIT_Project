@@ -1,3 +1,4 @@
+package com.gtek;
 
 
 
@@ -77,7 +78,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
         @Override
         protected PasswordAuthentication getPasswordAuthentication() {
 
-            return new PasswordAuthentication("prathamdummychavan@gmail.com", "afbojpaylwjnkvxl"	);
+            return new PasswordAuthentication("prathamdummychavan@gmail.com", "jpvinbmqubbtqzwy");
         }
     });
 

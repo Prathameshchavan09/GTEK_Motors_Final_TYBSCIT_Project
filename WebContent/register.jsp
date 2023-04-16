@@ -74,7 +74,7 @@
 			
 			
 			<div class="card-body">
-						<form action="registerServlet" method="post">
+						<form action="registerServlet2" method="post">
 
 							<div class="form-group">
 								<label class="labeld">Name&nbsp;<i class="fa fa-asterisk" aria-hidden="true"></i></label> <input type="text" class="form-control"

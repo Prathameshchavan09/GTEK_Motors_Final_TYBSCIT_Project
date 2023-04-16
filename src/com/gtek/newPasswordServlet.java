@@ -1,3 +1,4 @@
+package com.gtek;
 
 
 import java.io.IOException;
@@ -32,8 +33,8 @@ public class newPasswordServlet extends HttpServlet {
 				
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Gtek_final", "root","root");
-				PreparedStatement pst = con.prepareStatement("update gtekregisteration set password = ? where email = ? ");
+				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gtek_final?characterEncoding=utf8", "root", "root");
+				PreparedStatement pst = conn.prepareStatement("update gtekregisteration set password = ? where email = ? ");
 				pst.setString(1, newPassword);
 				pst.setString(2, (String) session.getAttribute("email"));
 				

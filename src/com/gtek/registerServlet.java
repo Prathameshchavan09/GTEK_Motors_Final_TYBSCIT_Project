@@ -1,3 +1,4 @@
+package com.gtek;
 
 
 import java.sql.Connection;
@@ -19,17 +20,21 @@ import javax.servlet.http.HttpSession;
 
 
 
-@WebServlet("/registerServlet")
+@WebServlet("/registerServlet2")
 public class registerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        public registerServlet() {
+
         super();
         // TODO Auto-generated constructor stub
     }
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+   		System.out.print("log 1	");
+
 		String name = request.getParameter("loginName");
+   		System.out.print("log 2	");
 		String email = request.getParameter("loginEmail");
 		String country = request.getParameter("loginCountry");
 		String password = request.getParameter("loginPassword");
@@ -39,7 +44,7 @@ public class registerServlet extends HttpServlet {
 		try {
 			
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Gtek_Final", "root", "root");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gtek_final?characterEncoding=utf8", "root", "root");
 			Statement st = conn.createStatement();
 			ResultSet rs = st.executeQuery(strQuery);
 			rs.next();
@@ -54,7 +59,9 @@ public class registerServlet extends HttpServlet {
 				
 				HttpSession session = request.getSession();
 				session.setAttribute("PassEmailValidationSucc", "Succesfully Register");
+				System.out.print("succ");
 				response.sendRedirect("register.jsp");
+				
 				
 			}
 			else if(!Countrow.equals("0")){
@@ -73,13 +80,15 @@ public class registerServlet extends HttpServlet {
 		}
 		catch(ClassNotFoundException e)
 		{
-			
+	   		System.out.print("log 3	");
+
 			System.out.println(e.getMessage());
 		}
 		catch(SQLException e)
 		{
-			
-			System.out.println(e.getMessage());
+	   		System.out.print("log 4	");
+
+			System.out.println("error log4 :::"+e.getMessage());
 		}
 		
 	}
