@@ -28,11 +28,11 @@
     <!--footer menu-->
     <div class="footer-menu">
         <ul class="f-menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Customize Products</a></li>
+            <li><a href="home.jsp">Home</a></li>
+            <li><a href="AboutUsPage.jsp">About Us</a></li>
+            <li><a href="ACanDCDrives.jsp">Products</a></li>
+            <li><a href="contactUs.jsp">Contact Us</a></li>
+            <li><a href="customize.jsp">Customize Products</a></li>
             
             
         </ul>

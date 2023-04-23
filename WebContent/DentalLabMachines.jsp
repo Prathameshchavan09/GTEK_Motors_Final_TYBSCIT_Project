@@ -204,9 +204,7 @@
 			<a href="login.jsp" class="btn btn-primary"><i
 				class="fa fa-sign-in" aria-hidden="true"></i>Login</a>&nbsp; <a
 				href="register.jsp" class="btn btn-success"><i
-				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; <a
-				href="logout.jsp" class="btn btn-danger"><i
-				class="fa fa-sign-out" aria-hidden="true"></i>LogOut</a>&nbsp;&nbsp;
+				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; 
 
 
 

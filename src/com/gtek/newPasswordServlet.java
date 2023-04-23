@@ -28,7 +28,7 @@ public class newPasswordServlet extends HttpServlet {
 		String confirmPassword = request.getParameter("confirmPassword");
 		RequestDispatcher dispatcher = null;
 		PrintWriter out = new PrintWriter(System.out);
-		if (newPassword != null && confirmPassword != null  && newPassword.contains("$") || newPassword.contains("#") || newPassword.contains("?") || newPassword.contains("!") || newPassword.contains("_") ||newPassword.contains("=") || newPassword.contains("%") ) 
+		if (newPassword != null && confirmPassword != null  &&  newPassword.equals(confirmPassword)) 
 		{
 				
 			try {

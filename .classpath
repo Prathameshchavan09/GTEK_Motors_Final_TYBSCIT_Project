@@ -13,15 +13,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_241">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/PRAM/git/jars/activation-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/PRAM/git/jars/javax.mail-1.6.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/PRAM/git/jars/jstl-1.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/PRAM/git/jars/mysql-connector-j-8.0.32.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/PRAM/git/jars/javax.servlet-3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Guest_User/git/jars/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Guest_User/git/jars/javax.mail-1.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Guest_User/git/jars/javax.servlet-3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Guest_User/git/jars/jstl-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Guest_User/git/jars/mysql-connector-java-8.0.27.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

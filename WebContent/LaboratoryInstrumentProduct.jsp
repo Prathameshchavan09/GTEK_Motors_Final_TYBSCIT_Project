@@ -203,9 +203,7 @@
 			<a href="login.jsp" class="btn btn-primary"><i
 				class="fa fa-sign-in" aria-hidden="true"></i>Login</a>&nbsp; <a
 				href="register.jsp" class="btn btn-success"><i
-				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; <a
-				href="logout.jsp" class="btn btn-danger"><i
-				class="fa fa-sign-out" aria-hidden="true"></i>LogOut</a>&nbsp;&nbsp;
+				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; 
 
 
 
@@ -228,7 +226,7 @@
 	<!--  First Layer -->
 	<div class="ProductTitle">
 		<h1>
-			<center>Electric Motor</center>
+			<center>Laboratory Instrument Product	</center>
 		</h1>
 	</div>
 	<div class="card-group">
@@ -247,7 +245,7 @@
 
 </p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -264,7 +262,7 @@
 
 </p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 
 		</div>
@@ -279,7 +277,7 @@
 					0 Temp. range 50 C to 250 C and Accouracy: +-2 C. Air Ventilations
 					is provided on the top of the unit to remove the hot gases / fumes.</p>
 					<br>
-					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-success">Detailed</button>
 				</div>
 			</div>
 		</div>
@@ -303,7 +301,7 @@
 
 </p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -319,7 +317,7 @@
 					per the specifications, provided by our clients.</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -334,7 +332,7 @@
 </p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -359,7 +357,7 @@
 
 </p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -376,7 +374,7 @@
 				</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -389,7 +387,7 @@
 					are widely appreciated by our clients which are situated all round
 					the nation. We offer our range of it at most affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -399,11 +397,7 @@
 	
 	
 		<!-- Fourth Layer -->
-	<div class="ProductTitle">
-		<h1>
-			<center>AC and DC Drives</center>
-		</h1>
-	</div>
+	
 	<div class="card-group">
 		<div class="card">
 			<img class="card-img-top"
@@ -417,7 +411,7 @@
 					widely appreciated by our clients which are situated all round the
 					nation. We offer our range of it at most affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -433,7 +427,7 @@
 					the nation. We offer our range of it at most affordable prices</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 
 		</div>
@@ -450,7 +444,7 @@
 					prices.</p>
 					<br>
 
-					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-success">Detailed</button>
 				</div>
 			</div>
 		</div>
@@ -473,7 +467,7 @@
 					are widely appreciated by our clients which are situated all round
 					the nation. We offer our range of it at most affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -489,7 +483,7 @@
 					the nation. We offer our range of it at most affordable prices.</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -508,7 +502,7 @@
 					Sturdy design Highly durable Application specific design</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -531,7 +525,7 @@
 					situated all round the nation. We offer our range of it at most
 					affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -549,7 +543,7 @@
 
 					Sturdy design Highly durable Application specific design .</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -567,7 +561,7 @@
 					Sturdy design Highly durable Application specific design</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -591,7 +585,7 @@
 					prices.
 </p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -606,7 +600,7 @@
 					are widely appreciated by our clients which are situated all round
 					the nation. We offer our range of it at most affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -620,7 +614,7 @@
 					round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -641,7 +635,7 @@
 					widely appreciated by our clients which are situated all round the
 					nation. We offer our range of it at most affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -656,7 +650,7 @@
 					situated all round the nation. We offer our range of it at most
 					affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		

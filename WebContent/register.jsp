@@ -36,7 +36,7 @@
 					
 			
 			
-				<!--session on Password and Email Validation Registration Failed	-->	
+				<!--session on Password validation failed	-->	
 					
 					
 					  <%
@@ -56,9 +56,9 @@
                      
                       <%
 						String PEvalidationSuc = (String) session.getAttribute("PassEmailValidationSucc");
-						if ( PEvalidationSuc != null) {
+						if (PEvalidationSuc != null) {
 					%>
-					<div class="alert alert-success" role="alert"><%= PEvalidationSuc%></div>
+					<div class="alert alert-success" role="alert"><%=PEvalidationSuc%></div>
 					<a href="login.jsp" style="text-decoration: none;"><strong>Click to Login</strong></a>
 					<%
 						session.removeAttribute("PassEmailValidationSucc");
@@ -74,7 +74,7 @@
 			
 			
 			<div class="card-body">
-						<form action="registerServlet2" method="post">
+						<form action="registerServlet" method="post">
 
 							<div class="form-group">
 								<label class="labeld">Name&nbsp;<i class="fa fa-asterisk" aria-hidden="true"></i></label> <input type="text" class="form-control"

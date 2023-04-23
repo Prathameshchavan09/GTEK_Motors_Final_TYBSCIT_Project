@@ -40,55 +40,56 @@
 							</h1>
 
 						</div>
-						
+
 						<!-- Sesssion on Reset Password Success -->
 
 						<%
-							String resetPassSucc = (String) session.getAttribute("passSucc");
-							if (resetPassSucc != null) {
+						String resetPassSucc = (String) session.getAttribute("passSucc");
+						if (resetPassSucc != null) {
 						%>
 
 
 						<div class="alert alert-success text-center" role="alert"><%=resetPassSucc%></div>
-					<a href="home.jsp" style="text-decoration: none;text-align:center;">Home Page</a>
-					<script type="text/javascript">
-    alert("Successfully Reset the Password");
-</script> 
-				
+						<a href="home.jsp"
+							style="text-decoration: none; text-align: center;">Home Page</a>
+						<script type="text/javascript">
+							alert("Successfully Reset the Password");
+						</script>
+
 						<%
-							session.removeAttribute("passSucc");
-							}
+						session.removeAttribute("passSucc");
+						}
 						%>
-						
-						
 
 
 
-                           <!-- Sesssion on Reset Password Failed  -->
+
+
+						<!-- Sesssion on Reset Password Failed  -->
 
 						<%
-							String resetPassFailed = (String) session.getAttribute("passFailed");
-							if (resetPassFailed != null) {
+						String resetPassFailed = (String) session.getAttribute("passFailed");
+						if (resetPassFailed != null) {
 						%>
 						<div class="alert alert-danger text-center" role="alert"><%=resetPassFailed%></div>
 						<%
-							session.removeAttribute("passFailed");
-							}
+						session.removeAttribute("passFailed");
+						}
 						%>
-						
-						
-						
+
+
+
 						<!-- Sesssion on Reset Password Special Characters  -->
 						<%
-							String passSpeCharFailed = (String) session.getAttribute("passSpeChar");
-							if (passSpeCharFailed != null) {
+						String passSpeCharFailed = (String) session.getAttribute("passSpeChar");
+						if (passSpeCharFailed != null) {
 						%>
 						<div class="alert alert-danger text-center" role="alert"><%=passSpeCharFailed%></div>
 						<%
-							session.removeAttribute("passSpeChar");
-							}
+						session.removeAttribute("passSpeChar");
+						}
 						%>
-						
+
 
 
 						<div class="pt-3 pb-3">
@@ -98,7 +99,7 @@
 								<div class="form-group row justify-content-center px-3">
 									<div class="col-9 px-0">
 										<input type="password" name="password"
-											placeholder="&#xf084; &nbsp; New Password (contain special character)"
+											placeholder="&#xf084; &nbsp; New Password"
 											class="form-control border-info placeicon">
 									</div>
 								</div>

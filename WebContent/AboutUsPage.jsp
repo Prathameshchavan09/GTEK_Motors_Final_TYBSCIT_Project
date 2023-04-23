@@ -6,22 +6,36 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	crossorigin="anonymous"></script>
 
 
 
 <!-- This link is for Product Page dropdown list -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 	crossorigin="anonymous"></script>
-		
-	<!-- This link is for Product Page dropdown list -->
-	
+
+<!-- This link is for Product Page dropdown list -->
+
 
 
 
@@ -35,7 +49,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<div class="container">
 		<a class="navbar-brand" href="#"><strong><span
 				class="text-warning">GTEK-</span></strong>Motors</a>
@@ -52,7 +66,8 @@
 					aria-current="page" href="home.jsp"><i class="fa fa-home"
 						aria-hidden="true"></i>Home</a></li>
 
-			<li class="nav-item"><a class="nav-link" href="AboutUsPage.jsp"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;AboutUs</a></li>
+				<li class="nav-item"><a class="nav-link" href="AboutUsPage.jsp"><i
+						class="fa fa-info" aria-hidden="true"></i>&nbsp;AboutUs</a></li>
 
 
 
@@ -191,8 +206,6 @@
 				class="fa fa-sign-in" aria-hidden="true"></i>Login</a>&nbsp; <a
 				href="register.jsp" class="btn btn-success"><i
 				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; <a
-				href="logout.jsp" class="btn btn-danger"><i
-				class="fa fa-sign-out" aria-hidden="true"></i>LogOut</a>&nbsp;&nbsp;
 
 
 
@@ -202,80 +215,27 @@
 
 
 	</div>
-</nav>
+	</nav>
 
 
 
-<!-- AboutUs Page Code -->
+	<!-- AboutUs Page Code -->
 	<div class="card">
 		<div class="AboutUsCardBody">
 			<div class="card-body">
 				<div class="card-title">
-				  
+
 					<div class="AboutUsTitle">
 
 						<strong><Italic>About Us<i
 								class="fa fa-address-book" aria-hidden="true"></i></Italic></strong>
 					</div>
-						
+
 				</div>
-		
+
 				<div class="card-text">
-				 <div class="AboutUsText">
-				
-					<italic> Incorporated in the year 2017, we, G-Tek Motors &
-					Lab Instrument are amongst the most promising Manufacturers and
-					Suppliers of a diverse product range. Our area of specialization
-					lies in manufacturing Dental Lab Instruments & Material, Helical
-					Gear Boxes, Helical Worm Geared Motor, Lab Water Pump, along with a
-					host of various other products.b Water Pump, along with a host of
-					various other products. Known for their durability, quality and
-					cost-effectiveness, our offered range is made under the expert
-					surveillance of team leaders. To manufacture a diversified product
-					range, we have collaborated with certified and trustworthy vendors,
-					who provide us with high grade steel, plastic and other raw
-					materials. We have made an advance production unit that is fitted
-					with necessary techno advanced machines. These machines aid our
-					professionals to make bulk products in accordance with national
-					quality standards. The core values of the company focusing upon
-					which we are</italic>
-				
-				</div>
-					
-				</div>
-				
+					<div class="AboutUsText">
 
-                 <div class="AboutUsImage">
-				<img class="card-img-top" src="HomeImages/aboutUs1.jpeg"
-					alt="Card image cap">
-             
-             </div>
-
-			</div>
-
-
-
-
-
-
-
-			<!--Layer2-->
-			<div class="middle-layer">
-
-				<div class="card-body">
-
-					<div class="card-title">
-						<div class="AboutUsTitle">
-							<strong><Italic><hr> <i class="fa fa-check-square"
-									aria-hidden="true"></i>
-								
-								Mission</Italic></strong>
-
-						</div>
-					</div>
-
-					<div class="card-text">
-					 <div class="AboutUsText">
 						<italic> Incorporated in the year 2017, we, G-Tek Motors
 						& Lab Instrument are amongst the most promising Manufacturers and
 						Suppliers of a diverse product range. Our area of specialization
@@ -292,15 +252,62 @@
 						our professionals to make bulk products in accordance with
 						national quality standards. The core values of the company
 						focusing upon which we are</italic>
-					</div>
-					</div>
-					
 
-                   <div class="AboutUsImage">
-					<img class="card-img-bottom" src="HomeImages/aboutUs2.jpeg"
+					</div>
+
+				</div>
+
+
+				<div class="AboutUsImage">
+					<img class="card-img-top" src="HomeImages/aboutUs1.jpeg"
 						alt="Card image cap">
-						
-                 </div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+			<!--Layer2-->
+			<div class="middle-layer">
+
+				<div class="card-body">
+
+					<div class="card-title">
+						<div class="AboutUsTitle">
+							<strong><Italic>
+								<hr>
+								<i class="fa fa-check-square" aria-hidden="true"></i> Mission</Italic></strong>
+
+						</div>
+					</div>
+
+					<div class="card-text">
+						<div class="AboutUsText">
+							<italic> The e-commerce website allows users to browse
+							and purchase products online. The website features an intuitive
+							shopping cart interface and checkout process, allowing users to
+							quickly and easily purchase items from the website. The website
+							also offers a variety of payment options, including credit cards,
+							PayPal, and other secure payment methods. Additionally, users can
+							take advantage of secure shipping and delivery services to
+							receive their orders in a timely manner. The website also
+							provides cust customer service support and a comprehensive
+							returns policy, enabling customers to return products for any
+							reason.</italic>
+						</div>
+					</div>
+
+
+					<div class="AboutUsImage">
+						<img class="card-img-bottom" src="HomeImages/aboutUs2.jpeg"
+							alt="Card image cap">
+
+					</div>
 
 				</div>
 
@@ -310,44 +317,37 @@
 
 
 
-<!--Layer3-->
+		<!--Layer3-->
 		<div class="AboutUsCardBody">
 			<div class="card-body">
 				<div class="card-title">
 					<div class="AboutUsTitle">
 
-						<strong><Italic>About Us<i
+						<strong><Italic>Vision<i
 								class="fa fa-address-book" aria-hidden="true"></i></Italic></strong>
 					</div>
 				</div>
 				<div class="card-text">
-				 <div class="AboutUsText">
-				
-					
-					<italic> Incorporated in the year 2017, we, G-Tek Motors &
-					Lab Instrument are amongst the most promising Manufacturers and
-					Suppliers of a diverse product range. Our area of specialization
-					lies in manufacturing Dental Lab Instruments & Material, Helical
-					Gear Boxes, Helical Worm Geared Motor, Lab Water Pump, along with a
-					host of various other products.b Water Pump, along with a host of
-					various other products. Known for their durability, quality and
-					cost-effectiveness, our offered range is made under the expert
-					surveillance of team leaders. To manufacture a diversified product
-					range, we have collaborated with certified and trustworthy vendors,
-					who provide us with high grade steel, plastic and other raw
-					materials. We have made an advance production unit that is fitted
-					with necessary techno advanced machines. These machines aid our
-					professionals to make bulk products in accordance with national
-					quality standards. The core values of the company focusing upon
-					which we are</italic>
-			</div>
+					<div class="AboutUsText">
+
+
+						<italic> This e-commerce website is designed to provide
+						customers with an easy and convenient online shopping experience.
+						Our inventory includes a wide variety of products ranging from
+						electronics, apparel, home goods, and more. Customers can shop
+						using our intuitive search engine to find items quickly and
+						easily. We also offer competitive pricing and discounts to
+						encourage customers to purchase more. Additionally, our secure
+						payment system ensures that all transactions are safe and secure.
+						Furthermore,</italic>
 					</div>
-					
+				</div>
 
-  <div class="AboutUsImage">
-				<img class="card-img-top" src="HomeImages/aboutUs1.jpeg"
-					alt="Card image cap">
-</div>
+
+				<div class="AboutUsImage">
+					<img class="card-img-top" src="HomeImages/aboutUs1.jpeg"
+						alt="Card image cap">
+				</div>
 
 			</div>
 
@@ -355,8 +355,8 @@
 
 
 		</div>
-		
-		</div>
-		<hr>
+
+	</div>
+	<hr>
 </body>
 </html>

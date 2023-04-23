@@ -5,10 +5,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import javax.servlet.*;
+
 
 import java.io.IOException;
-import java.io.PrintWriter;
+
 import java.sql.*;
 
 import javax.servlet.ServletException;
@@ -20,21 +20,17 @@ import javax.servlet.http.HttpSession;
 
 
 
-@WebServlet("/registerServlet2")
+@WebServlet("/registerServlet")
 public class registerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        public registerServlet() {
-
         super();
         // TODO Auto-generated constructor stub
     }
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-   		System.out.print("log 1	");
-
 		String name = request.getParameter("loginName");
-   		System.out.print("log 2	");
 		String email = request.getParameter("loginEmail");
 		String country = request.getParameter("loginCountry");
 		String password = request.getParameter("loginPassword");
@@ -44,7 +40,7 @@ public class registerServlet extends HttpServlet {
 		try {
 			
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gtek_final?characterEncoding=utf8", "root", "root");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Gtek_Final", "root", "root");
 			Statement st = conn.createStatement();
 			ResultSet rs = st.executeQuery(strQuery);
 			rs.next();
@@ -52,47 +48,36 @@ public class registerServlet extends HttpServlet {
 			String Countrow = rs.getString(1);
 			System.out.println(Countrow);
 
-			if(Countrow.equals("0") && password.contains("$") || password.contains("#") || password.contains("?") || password.contains("!") || password.contains("_") || password.contains("=") || password.contains("%"))  
+			if(Countrow.equals("0"))  
 			 {
 				int i = st.executeUpdate("insert into GtekRegisteration(name,email,country,password)values('" + name + "','" + email + "','"
 						+ country + "','"  + password + "')");
 				
 				HttpSession session = request.getSession();
 				session.setAttribute("PassEmailValidationSucc", "Succesfully Register");
-				System.out.print("succ");
 				response.sendRedirect("register.jsp");
 				
-				
 			}
-			else if(!Countrow.equals("0")){
+			else{
 				HttpSession session1 = request.getSession();
 				session1.setAttribute("EmailValidationFailed", "Email already exists");
 				response.sendRedirect("register.jsp");
 				System.out.print(" Email already exists !");
 				
 			}
-			else {
-				HttpSession session = request.getSession();
-				session.setAttribute("PasswordValidationFailed", "Password should contain Special Characters");
-				response.sendRedirect("register.jsp");
-			}
+			
 			
 		}
 		catch(ClassNotFoundException e)
 		{
-	   		System.out.print("log 3	");
-
+			
 			System.out.println(e.getMessage());
 		}
 		catch(SQLException e)
 		{
-	   		System.out.print("log 4	");
-
-			System.out.println("error log4 :::"+e.getMessage());
+			
+			System.out.println(e.getMessage());
 		}
 		
 	}
-
-	
-	
 }

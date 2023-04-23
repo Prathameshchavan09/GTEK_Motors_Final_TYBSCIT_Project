@@ -204,9 +204,7 @@
 			<a href="login.jsp" class="btn btn-primary"><i
 				class="fa fa-sign-in" aria-hidden="true"></i>Login</a>&nbsp; <a
 				href="register.jsp" class="btn btn-success"><i
-				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; <a
-				href="logout.jsp" class="btn btn-danger"><i
-				class="fa fa-sign-out" aria-hidden="true"></i>LogOut</a>&nbsp;&nbsp;
+				class="fa fa-user-plus" aria-hidden="true"></i>Register</a>&nbsp; 
 
 
 
@@ -246,7 +244,7 @@
 					all round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -262,7 +260,7 @@
 					all round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 
 		</div>
@@ -278,7 +276,7 @@
 						situated all round the nation. We offer our range of it at most
 						affordable prices.</p>
 					<br>
-					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-success">Detailed</button>
 				</div>
 			</div>
 		</div>
@@ -302,7 +300,7 @@
 					round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -319,7 +317,7 @@
 					prices.</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -334,7 +332,7 @@
 					prices.</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -357,7 +355,7 @@
 					round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -374,7 +372,7 @@
 					design Highly durable Application specific design .</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -388,7 +386,7 @@
 					nation. We offer our range of it at most affordable prices. Sturdy
 					design Highly durable Application specific design</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -398,11 +396,7 @@
 
 
 	<!-- Fourth Layer -->
-	<div class="ProductTitle">
-		<h1>
-			<center>AC and DC Drives</center>
-		</h1>
-	</div>
+	
 	<div class="card-group">
 		<div class="card">
 			<img class="card-img-top"
@@ -417,7 +411,7 @@
 					round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -438,7 +432,7 @@
 					Sturdy design Highly durable Application specific design .</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 
 		</div>
@@ -455,7 +449,7 @@
 						prices. Sturdy design Highly durable Application specific design</p>
 					<br>
 
-					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-success">Detailed</button>
 				</div>
 			</div>
 		</div>
@@ -479,7 +473,7 @@
 					situated all round the nation. We offer our range of it at most
 					affordable prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -496,7 +490,7 @@
 					prices. Sturdy design Highly durable Application specific design .</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -515,7 +509,7 @@
 					Sturdy design Highly durable Application specific design</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -538,7 +532,7 @@
 					round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -556,7 +550,7 @@
 
 					Sturdy design Highly durable Application specific design .</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -574,7 +568,7 @@
 					Sturdy design Highly durable Application specific design</p>
 				<br>
 
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
@@ -597,7 +591,7 @@
 					round the nation. We offer our range of it at most affordable
 					prices.</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 
 
 			</div>
@@ -613,7 +607,7 @@
 					nation. We offer our range of it at most affordable prices. Sturdy
 					design Highly durable Application specific design .</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 		<div class="card">
@@ -627,7 +621,7 @@
 					nation. We offer our range of it at most affordable prices. Sturdy
 					design Highly durable Application specific design</p>
 				<br>
-				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-success">Detailed</button>
 			</div>
 		</div>
 	</div>
