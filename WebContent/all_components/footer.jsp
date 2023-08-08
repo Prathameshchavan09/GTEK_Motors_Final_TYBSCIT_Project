@@ -42,7 +42,7 @@
     
     <!--footer  credit-->
     <div class="footer-bottom">
-        <p>Design By---<a href=""> Prathamesh and Jigar</a></p>
+        <p>Design By---<a href=""> Prathamesh</a></p>
         <p>copyright@2022,Include all</p>
         
     </div>
